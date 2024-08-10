@@ -6,7 +6,6 @@ import '../styles/domesticCardDetails.css'
 import ScrollToTop from '../componanats/ScrolltoTop';
 import Navbar from './Navbar';
 import '../App.css'
-import pageBg from '../images/bg.jpeg'
 
 function DomesticCardDetails() {
 

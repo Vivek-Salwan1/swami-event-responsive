@@ -5,7 +5,6 @@ import '../styles/domesticCardDetails.css'
 import { CountryWiseCards } from '../data/interCounWiseCards';
 import ScrollToTop from '../componanats/ScrolltoTop';
 import Navbar from './Navbar';
-import MobNav from './MobNav';
 import '../App.css'
 // import Footer from '../componanats/Footer';
 

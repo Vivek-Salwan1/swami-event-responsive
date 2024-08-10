@@ -4,7 +4,6 @@ import '../styles/groupTours.css';
 import { SpecialTourCards } from '../data/groupTourCards';
 // import GroupTCard from './GroupTCard';
 import SpecialTCard from './SpecialTourCard';
-import MobNav from '../common/MobNav';
 import '../App.css'
 
 function SpecialTours() {
