@@ -1,0 +1,73 @@
+
+
+.allDPage {
+  overflow: hidden;
+
+}
+
+.allDPage h1{
+  color: rgb(246, 35, 35);
+}
+
+.allDomesticPage{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    background: #9BD7D1;
+    border-radius: 20px;
+   
+}
+
+.allStates{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+
+}
+
+
+.stateBtn {
+    background-color: #325D79; 
+    border: none; 
+    color: white;
+    padding: 12px 24px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    transition-duration: 0.4s; 
+    cursor: pointer; 
+    border-radius: 8px; 
+  }
+  
+  /* Hover effect */
+  .stateBtn:hover {
+    background-color: #fb0303; /* Darker green */
+    color: white; /* White text */
+  }
+  
+  @media (max-width:600px) {
+    .allDomesticPage{
+      width: 98%;
+    }
+    .allStates{
+      gap: 10px;
+      margin-top: 20px;
+      padding: 10px 7px;
+      justify-content: center;
+  }
+  .stateBtn{
+    padding: 5px 10px;
+    font-size: 15px; 
+
+  }
+  }
