@@ -4,12 +4,11 @@ import { Link } from 'react-router-dom'
 import { Countries } from '../data/internDest'
 import '../styles/allDomestic.css'
 import '../App.css'
-import pageBg from '../images/bg.jpeg'
 import boxBg from '../images/allstatebg.jpeg'
 
 function AllInternational() {
   return (
-    <div className='allDPage' style={{ backgroundImage: `url(${pageBg})` }}>
+    <div className='allDPage'>
        
       <Navbar /><br />
       <h1 style={{textAlign:'center'}}>All International Packages</h1>

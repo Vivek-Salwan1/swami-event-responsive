@@ -2,16 +2,12 @@ import React from 'react'
 import Navbar from '../common/Navbar';
 import '../styles/termsPrivacy.css'
 import ScrollToTop from './ScrolltoTop';
-import MobNav from '../common/MobNav';
 import '../App.css'
 
 function PrivacyPolicy() {
   return (
     <div>
       <ScrollToTop/>
-      <div className='mobNavallPage'>
-      <MobNav/>
-      </div>
       <Navbar /> <br />
       <div className='tCdata'>
         <h1>PRIVACY POLICY</h1><br />

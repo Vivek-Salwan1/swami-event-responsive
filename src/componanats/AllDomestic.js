@@ -4,12 +4,11 @@ import { Allstates } from '../data/states'
 import '../styles/allDomestic.css'
 import { Link } from 'react-router-dom'
 import '../App.css'
-import pageBg from '../images/bg.jpeg'
 import boxBg from '../images/allstatebg.jpeg'
 
 function AllDomestic() {
   return (
-    <div className='allDPage' style={{ backgroundImage: `url(${pageBg})` }}>
+    <div className='allDPage'>
 
       <Navbar /><br />
       <h1 style={{ textAlign: 'center' }}>All Domestic packages</h1>

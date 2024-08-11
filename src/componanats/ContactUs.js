@@ -1,15 +1,11 @@
 import React from 'react'
 import Navbar from '../common/Navbar'
 import { Link } from 'react-router-dom'
-import MobNav from '../common/MobNav'
 import '../App.css'
 
 function ContactUs() {
   return (
     <div className='abcoPage'>
-    <div className='mobNavallPage'>
-      <MobNav/>
-      </div>
     <Navbar />
     <div className="aboutContact">
       <h1>CONTACT US</h1><br />

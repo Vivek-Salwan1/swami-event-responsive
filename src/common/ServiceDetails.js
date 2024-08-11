@@ -5,7 +5,6 @@ import { ServicesData } from '../data/serviceDetails';
 import '../styles/serviceDetails.css'
 import ScrollToTop from '../componanats/ScrolltoTop';
 import Footer from '../componanats/Footer';
-import MobNav from './MobNav';
 import '../App.css'
 
 
@@ -22,9 +21,6 @@ function ServiceDetails() {
 
             <div className='ServiceDetailsPage'>
                 <ScrollToTop />
-                <div className='mobNavallPage'>
-      <MobNav/>
-      </div>
                 <Navbar />
                 <div className="serviceContent">
                     <h1>{serviceData.serName}</h1>

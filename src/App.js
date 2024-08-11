@@ -14,7 +14,6 @@ import Footer from './componanats/Footer';
 // import { InstagramEmbed } from 'react-social-media-embed';
 import { GalleryImgs } from './data/galleryImgs';
 // import { Link } from 'react-router-dom';
-import MobNav from './common/MobNav';
 
 
 function App() {
@@ -66,10 +65,6 @@ function App() {
       <div className="allSection">
         <div className="header">
           <div className="mNav">
-            <div className="mobileNav">
-              <MobNav/>
-
-            </div>
              
             
           </div>

@@ -2,7 +2,9 @@
 
 .allDPage {
   overflow: hidden;
-
+  width: 100%;
+  height: 100vh; /* 100% of the viewport height */
+  background: linear-gradient(to right, #DFF6E6, #F5F8FC);
 }
 
 .allDPage h1{
@@ -14,7 +16,7 @@
     height: auto;
     margin: auto;
     /* border: 1px solid black; */
-    background: #9BD7D1;
+   
     border-radius: 20px;
    
 }

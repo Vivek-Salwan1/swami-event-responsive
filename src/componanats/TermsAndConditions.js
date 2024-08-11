@@ -2,16 +2,13 @@ import React from 'react'
 import Navbar from '../common/Navbar';
 import '../styles/termsPrivacy.css'
 import ScrollToTop from './ScrolltoTop';
-import MobNav from '../common/MobNav';
 import '../App.css'
 
 function TermsAndConditions() {
   return (
     <div>
       <ScrollToTop/>
-      <div className='mobNavallPage'>
-      <MobNav/>
-      </div>
+
       <Navbar /> <br />
       <div className="tCdata">
         <h1>TERMS AND CONDITIONS</h1> <br />

@@ -2,16 +2,12 @@ import React from 'react'
 import Navbar from '../common/Navbar'
 import '../styles/aboutContact.css'
 import { Link } from 'react-router-dom'
-import MobNav from '../common/MobNav'
 import '../App.css'
 
 
 function AboutUs() {
   return (
     <>
-      <div className='mobNavallPage'>
-      <MobNav/>
-      </div>
     <div className='abcoPage'>
 
       <Navbar />
